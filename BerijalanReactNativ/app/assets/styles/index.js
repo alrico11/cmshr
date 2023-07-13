@@ -4,7 +4,7 @@ const Fonts = {
         Regular:"Nunito-Regular",
         SemiBold:"Nunito-SemiBold",
         BoldItalic:"Nunito-BoldItalic",
-        SemiBoldItalic:"Nunito-SemiBoldItalic-",
+        SemiBoldItalic:"Nunito-SemiBoldItalic",
     }
 };
 export {Fonts};

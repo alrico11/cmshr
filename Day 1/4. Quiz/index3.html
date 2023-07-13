@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+
+    function timeConversion(time) {
+        let hour = parseInt(time.substr(0, 2));
+        let minute = time.substr(3, 2);
+        let second = time.substr(6, 2);
+        let period = time.substr(8, 2);
+
+        if (period === 'AM' && hour === 12) {
+            hour = '00';
+        } else if (period === 'PM' && hour !== 12) {
+            hour += 12;
+        }
+        return `${hour}:${minute}:${second}`;
+}
+
+console.log(timeConversion('12:01:00PM'))
+console.log(timeConversion('12:01:00AM'))
+</script>
+
+</html>

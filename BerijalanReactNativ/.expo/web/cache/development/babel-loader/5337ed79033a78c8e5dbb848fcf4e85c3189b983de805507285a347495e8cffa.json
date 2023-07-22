@@ -1,1 +1,0 @@
-{"ast":null,"code":"import HomeIcon from \"./home.svg\";\nexport { HomeIcon };","map":{"version":3,"names":["HomeIcon"],"sources":["C:/berijalan/BerijalanReactNativ/app/assets/svg/index.js"],"sourcesContent":["import HomeIcon from './home.svg'\r\n\r\nexport { HomeIcon }"],"mappings":"AAAA,OAAOA,QAAQ;AAEf,SAASA,QAAQ"},"metadata":{},"sourceType":"module","externalDependencies":[]}

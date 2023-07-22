@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-selection {
+    @apply dark:bg-slate-800 bg-slate-200 font-bold
+  }
+  .custom-shadow {
+    @apply shadow dark:shadow-lg dark:shadow-slate-800
+  }
+  .menu-header {
+    @apply min-w-[100px] justify-center flex py-5 hover:header-selection
+  }
+  .menu-gallery {
+    @apply items-center justify-center custom-shadow hover:bg-lime-900 bg-lime-500 px-5 py-2 rounded-md text-black my-5
+  }
+  .navbar {
+    @apply flex justify-start items-center;
+  }
+  .navbar-menu {
+    @apply list-none flex gap-10;
+  }
+  .navbar-item {
+    @apply mr-10;
+  }
+  .navbar-link {
+    @apply no-underline font-bold;
+    
+  }
+  .navbar-link:hover {
+    @apply text-red-900;
+  }
+}

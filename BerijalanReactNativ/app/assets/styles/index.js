@@ -1,3 +1,5 @@
+import { Dimensions } from "react-native";
+
 const Fonts = {
     Nunito: {
         Bold: 'Nunito-Bold',
@@ -7,4 +9,7 @@ const Fonts = {
         SemiBoldItalic:"Nunito-SemiBoldItalic",
     }
 };
-export {Fonts};
+
+const WIDTH =  Dimensions.get("screen").width
+const HEIGHT = Dimensions.get("screen").height
+export {Fonts,WIDTH, HEIGHT};

@@ -7,7 +7,7 @@ export default function Container(
 }) {
     return (
         <section>
-            <div className='px-5s'>{children}</div>
+            <div className='px-5 py-5'>{children}</div>
         </section>
     )
 }

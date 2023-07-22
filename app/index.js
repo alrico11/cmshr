@@ -1,11 +1,19 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
+import React from "react";
+import Profile from "./pages/Profile";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import { NavigationContainer } from "@react-navigation/native";
+
+import Routes from "./services/router";
 
 export default function IndexLayout() {
+  // return <Profile />;
   return (
-    <View style={{marginTop: 40}}>
-      <Text>App</Text>
-    </View>
-  )
+    // <Register/>
+  //  <Login/>
+    <NavigationContainer>
+       <Routes />
+     </NavigationContainer>
+  );
 }
